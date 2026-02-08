@@ -1,3 +1,4 @@
+%%writefile search_phonebook.cu
 #include <bits/stdc++.h>
 #include <cuda.h>
 #include <cuda_runtime.h>
@@ -166,6 +167,7 @@ int main(int argc, char* argv[]) {
 }
 
 /*
+!pip install pycuda
 !nvcc -arch=sm_75 search_phonebook.cu -o search_phonebook
 !time ./search_phonebook AKTER 100 > output1.txt
 */
