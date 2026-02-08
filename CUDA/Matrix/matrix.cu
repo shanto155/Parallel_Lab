@@ -1,3 +1,4 @@
+%%writefile matrix.cu
 #include <iostream>
 #include <cuda_runtime.h>
 
@@ -93,5 +94,7 @@ int main(int argc, char* argv[]) {
   return 0;
 }
 
+
+// !pip install pycuda
 //!nvcc -arch=sm_75 matrix.cu -o matrix
 //!time ./matrix 400 2 2 2 2 > output.txt
