@@ -147,3 +147,18 @@ int main(int argc, char **argv) {
     MPI_Finalize();
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+//sudo apt install openmpi-bin openmpi-common libopenmpi-dev
+//mpic++ phone_book_mpi.cpp -o p
+//mpirun -np 4 ./p phonebook1.txt AISHWARYA
+
